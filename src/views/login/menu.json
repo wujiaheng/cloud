@@ -1,0 +1,31 @@
+{
+  "path": "/organization",
+  "component": "Layout",
+  "redirect": "/organization/user",
+  "name": "Organization",
+  "meta": {
+    "title": "系统管理",
+    "icon": "component"
+  },
+  "children": [
+     {
+      "path": "/organization/user",
+      "component": "@/views/organization/user)",
+      "name": "User",
+      "meta": {
+        "title": "用户管理",
+        "icon": "peoples"
+      }
+    },
+    {
+      "path": "/organization/user",
+      "component": "@/views/organization/user",
+      "name": "User",
+      "meta": {
+        "title": "用户管理",
+        "icon": "peoples"
+      }
+    }
+
+  ]
+}
