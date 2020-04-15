@@ -13,15 +13,15 @@ const organizationRouter = {
   },
   children: [
     {
-       path: '/product/productNorm',
-       component: () => import('@/views/product/productNorm'),
-       name: 'productNorm',
-       meta: {
-         title: '商品规格管理',
-         icon: 'peoples'
-       }
-     },
-   {
+      path: '/product/productNorm',
+      component: () => import('@/views/product/productNorm'),
+      name: 'productNorm',
+      meta: {
+        title: '商品规格管理',
+        icon: 'peoples'
+      }
+    },
+    {
       path: '/product/productCate',
       component: () => import('@/views/product/productCate'),
       name: 'productCate',
@@ -29,8 +29,17 @@ const organizationRouter = {
         title: '商品分类管理',
         icon: 'peoples'
       }
+    },
+    {
+      path: '/product/productBrand',
+      component: () => import('@/views/product/productBrand'),
+      name: 'productBrand',
+      meta: {
+        title: '商品品牌管理',
+        icon: 'peoples'
+      }
     }
-  
+
   ]
 }
 
